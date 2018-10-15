@@ -89,7 +89,7 @@ public class Interfaz extends javax.swing.JFrame {
         RegistroNumeros.setLineWrap(true);
         jScrollPane1.setViewportView(RegistroNumeros);
 
-        lblNumero.setBackground(new java.awt.Color(255, 255, 0));
+        lblNumero.setBackground(new java.awt.Color(255, 255, 51));
         lblNumero.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 100)); // NOI18N
         lblNumero.setForeground(new java.awt.Color(0, 0, 0));
         lblNumero.setBorder(new javax.swing.border.MatteBorder(null));
