@@ -80,7 +80,7 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1070, 654));
 
         RegistroNumeros.setEditable(false);
-        RegistroNumeros.setBackground(new java.awt.Color(255, 102, 102));
+        RegistroNumeros.setBackground(new java.awt.Color(255, 255, 51));
         RegistroNumeros.setColumns(1);
         RegistroNumeros.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 36)); // NOI18N
         RegistroNumeros.setForeground(new java.awt.Color(0, 0, 0));
@@ -89,7 +89,7 @@ public class Interfaz extends javax.swing.JFrame {
         RegistroNumeros.setLineWrap(true);
         jScrollPane1.setViewportView(RegistroNumeros);
 
-        lblNumero.setBackground(new java.awt.Color(255, 102, 102));
+        lblNumero.setBackground(new java.awt.Color(255, 255, 0));
         lblNumero.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 100)); // NOI18N
         lblNumero.setForeground(new java.awt.Color(0, 0, 0));
         lblNumero.setBorder(new javax.swing.border.MatteBorder(null));
@@ -98,7 +98,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblNumero.setHorizontalAlignment((int) CENTER_ALIGNMENT);
         lblNumero.setOpaque(true);
 
-        generar.setBackground(new java.awt.Color(255, 102, 102));
+        generar.setBackground(new java.awt.Color(255, 255, 51));
         generar.setForeground(new java.awt.Color(0, 0, 0));
         generar.setText("Sacar Numero");
         generar.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +109,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/Bingo/1464047903.gif"))); // NOI18N
 
-        jButton2.setBackground(new java.awt.Color(255, 102, 102));
+        jButton2.setBackground(new java.awt.Color(255, 255, 51));
         jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Salir");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +118,7 @@ public class Interfaz extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(255, 102, 102));
+        jButton3.setBackground(new java.awt.Color(255, 255, 51));
         jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("Reiniciar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
