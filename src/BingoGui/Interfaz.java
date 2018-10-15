@@ -41,7 +41,7 @@ public class Interfaz extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Ya no quedan mas numeros!\n"
                     + "Para jugar de nuevo apreta Reiniciar");
             generar.setEnabled(false);
-            
+            return;
         }
         int NumeroRandom= (int) (Math.random()* numeros.size());
         NumeroEnPantalla=numeros.get(NumeroRandom);
